@@ -1,0 +1,22 @@
+{
+  "name": "typescript-course",
+  "version": "0.0.1",
+  "description": "Total Typescript course by Tincho Arias",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/martinlariaspaz/typescript-course.git"
+  },
+  "author": "Tincho Arias",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/martinlariaspaz/typescript-course/issues"
+  },
+  "homepage": "https://github.com/martinlariaspaz/typescript-course#readme",
+  "dependencies": {
+    "ts-toolbelt": "^9.6.0"
+  }
+}
