@@ -1,4 +1,4 @@
-import { Equal, Expect } from "../helpers/type-utils";
+import { Equal, Expect } from "../../helpers/type-utils";
 
 type Routes = "/users" | "/users/:id" | "/posts" | "/posts/:id";
 
