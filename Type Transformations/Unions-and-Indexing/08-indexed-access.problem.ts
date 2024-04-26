@@ -1,4 +1,4 @@
-import { Equal, Expect } from "../helpers/type-utils";
+import { Equal, Expect } from "../../helpers/type-utils";
 
 /*
 Your challenge is to turn fakeDataDefaults into a type, then extract each of the object into its individual pieces:

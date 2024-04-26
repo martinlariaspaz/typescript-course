@@ -1,4 +1,4 @@
-import { Equal, Expect } from "../helpers/type-utils";
+import { Equal, Expect } from "../../helpers/type-utils";
 
 type Event = `log_in` | "log_out" | "sign_up";
 

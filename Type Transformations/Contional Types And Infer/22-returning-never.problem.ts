@@ -1,4 +1,4 @@
-import { Equal, Expect } from "../helpers/type-utils";
+import { Equal, Expect } from "../../helpers/type-utils";
 
 // type YouSayGoodbyeAndISayHello<T> = T extends "hello"
 //   ? "goodbye"
@@ -8,8 +8,8 @@ import { Equal, Expect } from "../helpers/type-utils";
 
 type YouSayGoodbyeAndISayHello<T> = T extends "hello" | 'goodbye'
   ? T extends "hello"
-    ? 'goodbye'
-    : 'hello'
+  ? 'goodbye'
+  : 'hello'
   : never
 
 type tests = [

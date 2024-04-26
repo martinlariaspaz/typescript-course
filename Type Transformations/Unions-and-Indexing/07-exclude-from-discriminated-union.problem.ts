@@ -1,4 +1,4 @@
-import { Equal, Expect } from "../helpers/type-utils";
+import { Equal, Expect } from "../../helpers/type-utils";
 
 /*
 For this exercise, your job is to extract all of the events from the Event type whose type isn't "keydown":

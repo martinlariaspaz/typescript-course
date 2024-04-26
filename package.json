@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/martinlariaspaz/typescript-course#readme",
   "dependencies": {
-    "ts-toolbelt": "^9.6.0"
+    "react": "^18.2.0",
+    "ts-toolbelt": "^9.6.0",
+    "vitest": "^1.4.0"
   }
 }

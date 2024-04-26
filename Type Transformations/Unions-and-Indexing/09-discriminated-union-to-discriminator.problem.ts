@@ -1,4 +1,4 @@
-import { Equal, Expect } from "../helpers/type-utils";
+import { Equal, Expect } from "../../helpers/type-utils";
 
 /*
 Your job is to grab the type of click or focus or keyDown from the discriminated union so that the following test passes:

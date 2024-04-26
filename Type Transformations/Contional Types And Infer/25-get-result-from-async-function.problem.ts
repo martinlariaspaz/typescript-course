@@ -1,4 +1,4 @@
-import { Equal, Expect } from "../helpers/type-utils";
+import { Equal, Expect } from "../../helpers/type-utils";
 
 const getServerSideProps = async () => {
   const data = await fetch("https://jsonplaceholder.typicode.com/todos/1");

@@ -1,4 +1,4 @@
-import { Equal, Expect } from "../helpers/type-utils";
+import { Equal, Expect } from "../../helpers/type-utils";
 
 /*
 Your goal for this challenge is to extract the "click" type into a new type called ClickEvent.

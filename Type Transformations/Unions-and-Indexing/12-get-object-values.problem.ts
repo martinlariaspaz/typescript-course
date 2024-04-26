@@ -1,4 +1,4 @@
-import { Equal, Expect } from "../helpers/type-utils";
+import { Equal, Expect } from "../../helpers/type-utils";
 
 const frontendToBackendEnumMap = {
   singleModule: "SINGLE_MODULE",
