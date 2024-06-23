@@ -17,8 +17,17 @@
   },
   "homepage": "https://github.com/martinlariaspaz/typescript-course#readme",
   "dependencies": {
+    "@types/express": "^4.17.21",
+    "@types/lodash": "^4.17.5",
+    "express": "^4.19.2",
+    "lodash": "^4.17.21",
     "react": "^18.2.0",
     "ts-toolbelt": "^9.6.0",
-    "vitest": "^1.4.0"
+    "vitest": "^1.4.0",
+    "zod": "^3.23.8"
+  },
+  "_moduleAliases": {
+    "fake-externa-lib": "helpers/fake-external-lib.ts",
+    "helpers-utils": "helpers/type-utils.ts"
   }
 }

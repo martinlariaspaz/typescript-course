@@ -17,6 +17,13 @@ export function compose<T1, T2, T3, T4, T5>(
   func3: (t3: T3) => T4,
   func4: (t3: T4) => T5,
 ): (t1: T1) => T5;
+export function compose<T1, T2, T3, T4, T5,T6>(
+  func: (t1: T1) => T2,
+  func2: (t2: T2) => T3,
+  func3: (t3: T3) => T4,
+  func4: (t3: T4) => T5,
+  func5: (t3: T5) => T6,
+): (t1: T1) => T5;
 export function compose(...funcs: Array<(input: any) => any>) {
   return (input) => {
     return funcs.reduce((acc, fn) => fn(acc), input);
@@ -45,3 +52,4 @@ it("Should error when the input to a function is not typed correctly", () => {
     addOne,
   );
 });
+

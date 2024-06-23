@@ -1,7 +1,8 @@
 import { expect, it } from "vitest";
 import { Equal, Expect } from "../../helpers/type-utils";
 
-const makeFormValidatorFactory = <T extends string>(validators: Record<T, (value: string) => string | void>) => <P extends string, U extends T>(config: Record<P, U[]>) => {
+const makeFormValidatorFactory = <T extends string>(validators: Record<T, (value: string) => string | void>) => 
+  <P extends string, U extends T>(config: Record<P, U[]>) => {
   return <Z extends Record<P, string>>(values: Z) => {
     const errors = {} as Record<P, string | undefined>;
 
